@@ -1,0 +1,56 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height:100%;
+}
+
+body{
+    background: url("img/back.gif"); 
+    background-size: cover;
+    overflow: hidden;
+}
+img{
+    width:50px;
+    height: 50px;
+}
+.missile{
+    width: 20px;
+    height: 20px;
+}
+.explosion{
+    transition-delay: 5s;
+}
+
+.vaisseau{
+    width: 60px;
+    height: 30px;
+    background-color: blanchedalmond;
+}
+ 
+.gameover{
+
+    width: 70%;
+    height: 55%;
+}
+.POURCONTINUE{
+    position:initial;
+    top: 3%;
+    text-align: center;
+    left: 20%;
+    color: brown;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.score{
+    position:sticky;
+    font-size: 100px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+ 
+    opacity: 70%;
+    top: 10%;
+    left: 50%;
+}
